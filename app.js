@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "pages", "index.html"));
 });
 
-app.get("/skill", (req, res) => {
+app.get("/skills", (req, res) => {
     res.sendFile(path.join(__dirname, "pages", "skills.html"));
 });
 
